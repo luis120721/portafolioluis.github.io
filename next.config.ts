@@ -1,7 +1,7 @@
-import type { NextConfig } from "next";
-
-const nextConfig: NextConfig = {
-  /* config options here */
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  output: 'export',       // ⚡ Esto reemplaza next export
+  trailingSlash: true,    // Para que GitHub Pages funcione correctamente
 };
 
-export default nextConfig;
+module.exports = nextConfig;

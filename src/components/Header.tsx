@@ -26,6 +26,8 @@ export default function Header() {
             { href: "#about", label: "Sobre mí" },
             { href: "#skills", label: "Tecnologías" },
             { href: "#projects", label: "Proyectos" },
+            { href: "#education", label: "Educación" },
+            { href: "#courses", label: "Cursos" },
             { href: "#contact", label: "Contacto" },
           ].map((link) => (
             <motion.li
