@@ -57,16 +57,6 @@ export default function Header() {
               </Link>
             </motion.li>
           ))}
-
-          {/* Botón Dark Mode */}
-          <li className="md:inline-block text-center py-4 md:py-0">
-            <button
-              onClick={toggleDarkMode}
-              className="ml-2 text-gray-900 dark:text-white hover:text-yellow-400 transition-colors"
-            >
-              {darkMode ? <FaSun size={20} /> : <FaMoon size={20} />}
-            </button>
-          </li>
         </ul>
       </motion.nav>
     </header>
